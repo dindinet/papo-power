@@ -2,8 +2,10 @@
 # Site
 
 title: Papopower
-url: "https://airy-card.cloudvent.net"
-baseurl:
+#url: "http://127.0.0.1:4000/"
+url: "https://dindinet.github.io/papo-power/"
+baseurl: ""
+hero_image: https://lh3.googleusercontent.com/-sFRls0K2Btg/WqKnMNsDxnI/AAAAAAAAVf4/jkAmmGLz38oF1yppNki8Zl4x_xIi1EZxQCJoC/s0-rj-l70-e90/bg-masthead.jpg
 google_analytics_key:
 google_maps_javascript_api_key:
 
@@ -24,7 +26,7 @@ social:
 
 permalink: pretty
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
