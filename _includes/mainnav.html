@@ -5,7 +5,7 @@
           <a href="{{ site.url }}" class="w3-bar-item w3-button w3-padding-large">HOME</a>
           <div class="w3-right w3-hide-small">
                 {% for nav in site.data.nav %}
-                <a href="{{ site.url }}{{ nav.link }}" class="w3-bar-item w3-button  w3-padding-large w3-hide-small">{{ nav.name }}</a>
+                <a href="{{ site.url }}/{{site.baseurl}}{{ nav.link }}" class="w3-bar-item w3-button  w3-padding-large w3-hide-small">{{ nav.name }}</a>
                 {% endfor %}
 
         </div>
@@ -15,7 +15,7 @@
       <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
             
                     {% for nav in site.data.nav %}
-                    <a href="{{ site.url }}{{ nav.link }}" class="w3-bar-item w3-button  w3-padding-large">{{ nav.name }}</a>
+                    <a href="{{ site.url }}/{{site.baseurl}}{{ nav.link }}" class="w3-bar-item w3-button  w3-padding-large">{{ nav.name }}</a>
                     {% endfor %}
 
       
