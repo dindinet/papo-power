@@ -1,6 +1,6 @@
 ---
 title: We help create growing companies by fixing their digital marketing
-heading: Frequently asked Questions
+heading: Frequently Asked Questions
 sub-heading: 
 description: Only by steady continuous improvement can you grow and sustain your business
 layout: page
