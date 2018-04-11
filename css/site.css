@@ -237,11 +237,22 @@ body, html {
     
 }
 body{margin-top:49px;}
-
+.w3-bar{color: #ffeb3b!important;}
 .w3-xxlarge{font-size: 2em!important;}
 .flexy{display: flex;flex-wrap: wrap;}
 .order1{order:1;-webkit-order:1;}
 .order2{order:2;-webkit-order:2;}
+.intro{font-size: 1.0em;line-height: 1.4em;padding: 0em 2em 2em 2em;}
+.intro::first-letter { 
+    font-size: 200%;
+    color:#ffeb3b;
+    font-weight: 700;
+}
+
+.benefit-card{height:300px;text-align:center;}
+.benefit-card h3{font-size:60px;margin-top: 8%}
+.fp-button{color: #fff;background:green;}
+.fp-button:hover{color: yellow!important; background: black!important;}
 @media screen and (min-width: 601px) {
     body, html {
         font-size: 2vw;      
