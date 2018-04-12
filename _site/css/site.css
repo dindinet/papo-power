@@ -239,6 +239,7 @@ body, html {
 body{margin-top:49px;}
 .w3-bar{color: #ffeb3b!important;}
 .w3-xxlarge{font-size: 2em!important;}
+.w3-xlarge{font-size: 1.4em!important;}
 .flexy{display: flex;flex-wrap: wrap;}
 .order1{order:1;-webkit-order:1;}
 .order2{order:2;-webkit-order:2;}
@@ -267,6 +268,7 @@ body{margin-top:49px;}
     }
     p{font-size:18px;}
     .w3-xxlarge{font-size: 1em!important;}
+    .w3-xlarge{font-size: 0.8em!important;}
 
   }
   @media screen and (max-width: 600px) {
