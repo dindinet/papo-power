@@ -1,5 +1,5 @@
-- name: News
-  link: /news/
+- name: Articles
+  link: /articles/
 - name: About
   link: /about/
 - name: FAQ

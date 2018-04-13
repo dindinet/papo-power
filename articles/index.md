@@ -1,6 +1,6 @@
 ---
-title: We help create growing companies by fixing their digital marketing
-heading: Marketing Fuel
+title: We help create growing companies by fixing their Internet Marketing
+heading: Internet Marketing Fuel
 sub-heading: 
 description: Only by steady continuous improvement can you grow and sustain your business
 layout: page

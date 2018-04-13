@@ -250,8 +250,8 @@ body{margin-top:49px;}
     font-weight: 700;
 }
 
-.benefit-card{height:300px;text-align:center;}
-.benefit-card h3{font-size:60px;margin-top: 8%}
+.benefit-card{height: 340px;text-align: center;padding-bottom: 16px;}
+.benefit-card h3{font-size:8vh;margin-top: 8%}
 .fp-button{color: #fff;background:green;}
 .fp-button:hover{color: yellow!important; background: black!important;}
 @media screen and (min-width: 601px) {
