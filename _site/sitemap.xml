@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/optimisation/website-optimisation-for-marketing-success/</loc>
-<lastmod>2018-04-13T01:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/attraction/conversion/bounce/growth/stop-driving-people-away-from-your-business/</loc>
-<lastmod>2018-04-15T01:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/growth/grow-your-business-with-email;/</loc>
-<lastmod>2018-04-16T01:00:00+01:00</lastmod>
+<loc>http://localhost:4000/measurement/analytics/measure-everything-because-data-is-your-secret-weapon/</loc>
+<lastmod>2018-04-18T01:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/retention/invite-your-audience-back-whenever-you-need/</loc>
 <lastmod>2018-04-17T01:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/measurement/analytics/measure-everything-because-data-is-your-secret-weapon/</loc>
-<lastmod>2018-04-18T01:00:00+01:00</lastmod>
+<loc>http://localhost:4000/growth/grow-your-business-with-email;/</loc>
+<lastmod>2018-04-16T01:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/attraction/conversion/bounce/growth/stop-driving-people-away-from-your-business/</loc>
+<lastmod>2018-04-15T01:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/optimisation/website-optimisation-for-marketing-success/</loc>
+<lastmod>2018-04-13T01:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/articles/</loc>
