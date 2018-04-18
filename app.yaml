@@ -5,7 +5,7 @@ threadsafe: true
 default_expiration: 1d
 
 handlers:
-  - url: /(.+)
+  - url: /(.*)
     static_files: static/\1/index.html
     upload: static/(.*) 
   
