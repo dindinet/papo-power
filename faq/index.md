@@ -1,5 +1,5 @@
 ---
-title: We help create growing companies by fixing their digital marketing
+title: Improve your digital marketing right now.
 heading: Frequently Asked Questions
 sub-heading: 
 description: Only by steady continuous improvement can you grow and sustain your business

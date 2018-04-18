@@ -1,5 +1,5 @@
 ---
-title: We help create growing companies by fixing their digital marketing
+title: Improve Internet Marketing to Grow and Sustain your Business
 heading: Contact Us
 sub-heading: 
 description: Only by steady continuous improvement can you grow and sustain your business
