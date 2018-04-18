@@ -1,8 +1,8 @@
 - name: Articles
-  link: /articles/
+  link: /articles
 - name: About
-  link: /about/
+  link: /about
 - name: FAQ
-  link: /faq/
+  link: /faq
 - name: Contact
-  link: /contact/
+  link: /contact
