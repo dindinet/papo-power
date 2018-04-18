@@ -25,11 +25,10 @@ social:
 
 permalink: pretty
 
-plugins:
+plugins_dir:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-archives
 
 exclude:
