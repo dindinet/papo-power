@@ -1,5 +1,6 @@
 # ----
 # Site
+
 title: Papopower
 url: "https://dindinet.github.io/papo-power/"
 baseurl: ""
@@ -21,12 +22,14 @@ social:
 
 # -----
 # Build
+
 permalink: pretty
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-archives
 
 exclude:
@@ -42,8 +45,8 @@ collections:
     output: true
     permalink: /:categories/:title/
     
-#paginate: 10
-#paginate_path: "/blog/:num/"
+paginate: 10
+paginate_path: "/blog/:num/"
 
 jekyll-archives:
   enabled: ['categories','tags']
