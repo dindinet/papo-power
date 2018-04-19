@@ -24,7 +24,7 @@ social:
 # Build
 permalink: pretty
 
-plugins_dir:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
