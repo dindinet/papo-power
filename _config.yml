@@ -18,18 +18,16 @@ author:
 social:
   name: Papopower
   links:
-    - https://dindinet.github.io/papo-power/
+    - https://speedsizeinfuence.appspot.com
 
 # -----
 # Build
-
 permalink: pretty
 
-plugins:
+plugins_dir:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-archives
 
 exclude:
@@ -45,8 +43,8 @@ collections:
     output: true
     permalink: /:categories/:title/
     
-paginate: 10
-paginate_path: "/blog/:num/"
+#paginate: 10
+#paginate_path: "/blog/:num/"
 
 jekyll-archives:
   enabled: ['categories','tags']

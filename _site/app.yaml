@@ -2,23 +2,24 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
-default_expiration: 1d
+default_expiration: "1m"
 
 handlers:
   - url: /
     static_files: static/index.html
     upload: static/index.html
 
-  - url: /
-    static_dir: static
-    
+  - url: /(.+)/
+    static_files: static/\1/index.html
+    upload: static/(.+)/index.html
+
+  - url: /(.+)
+    static_files: static/\1/index.html
+    upload: static/(.+)/index.html
+
   - url: /(.*)
     static_files: static/\1/index.html
-    upload: static/(.*) 
-  
-  - url: /(.*)/$
-    static_files: static/\1/index.html
-    upload: static/.*/index.html
+    upload: static/(.*)
 
   - url: /favicon.ico
     static_files: favicon.ico
