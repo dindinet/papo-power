@@ -4,7 +4,7 @@ heading: Frequently Asked Questions
 sub-heading: 
 description: Only by steady continuous improvement can you grow and sustain your business
 layout: page
-hero_image: https://lh3.googleusercontent.com/JqsZyGb23aqnvQUDNA7YEpmieyMlZC0IzV7IK3QbNefV4fuRGAXf2PWkYlYc8ivqMhiVqAZAM01boJWgSg=w1200-h500-c-rj
+hero_image: https://lh3.googleusercontent.com/JqsZyGb23aqnvQUDNA7YEpmieyMlZC0IzV7IK3QbNefV4fuRGAXf2PWkYlYc8ivqMhiVqAZAM01boJWgSg=w1200-h500-c-rj-e30
 ---
 
 ## Popular FAQs
