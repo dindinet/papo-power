@@ -31,7 +31,16 @@ handlers:
     upload: static/js/(.*\.(js|min\.js))
     expiration: "30d"
     http_headers:
-      Vary: Accept-Encoding      
+      Vary: Accept-Encoding
+      Access-Control-Allow-Origin: "*" 
+      
+  - url: /fonts/(.*\.(woff|woff2|ttf|eot|svg))
+    static_files: static/fonts/\1
+    upload: static/fonts/(.*\.(woff|woff2|ttf|eot|svg))
+    expiration: "30d"
+    http_headers:
+      Vary: Accept-Encoding
+      Access-Control-Allow-Origin: "*"
 
   - url: /vendor/(.*\.(js|css|min\.js|min\.css|woff|woff2|ttf|eot|svg))
     static_files: static/vendor/\1\.(js|css|min\.js|min\.css|woff|woff2|ttf|eot|svg)
