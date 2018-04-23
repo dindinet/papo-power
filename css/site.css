@@ -306,7 +306,7 @@ body{margin-top:74px;}
 /* The hero image */
 .hero-box {
     /* Set a specific height */
-    height: 70%;
+    height: 50%;
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 
     /* Position and center the image to scale nicely on all screens */
