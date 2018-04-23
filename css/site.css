@@ -1,3 +1,6 @@
+:root {
+  --theme-color: #2cb5e8; 
+}
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -141,10 +144,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
 .w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
 .w3-left{float:left!important}.w3-right{float:right!important}
-.w3-button:hover{color:#000!important;background-color:#ccc!important}
+.w3-button:hover{color: var(--theme-color)!important;background-color:#fff!important}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
+.themeblue{background-color: var(--theme-color);}
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
@@ -237,7 +241,7 @@ body, html {
     
 }
 body{margin-top:74px;}
-.w3-bar{color: #ffeb3b!important;}
+.w3-bar{color: #fff!important;}
 .w3-xxlarge{font-size: 2em!important;}
 .w3-xlarge{font-size: 1.4em!important;}
 .flexy{display: flex;flex-wrap: wrap;}
@@ -245,15 +249,18 @@ body{margin-top:74px;}
 .order2{order:2;-webkit-order:2;}
 .intro{font-size: 1.0em;line-height: 1.4em;padding: 0em 2em 2em 2em;}
 .intro::first-letter { 
-    font-size: 200%;
-    color:#ffeb3b;
+    font-size: 1.2em;
+    color: #fff;
     font-weight: 700;
+    background: var(--theme-color);
+    padding: 3px;
+    line-height: 0;
 }
 .hamburger {
     position: relative;
     display: inline-block;
     width: 1.25em;
-    height: 0.8em;
+    height: 1.2em;
     margin-right: 0.3em;
     border-top: 0.2em solid #fff;
     border-bottom: 0.2em solid #fff;
@@ -297,9 +304,10 @@ body{margin-top:74px;}
     .w3-xxlarge{font-size: 1.2em!important;}
   }
 /* The hero image */
-.hero-image {
+.hero-box {
     /* Set a specific height */
     height: 70%;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -317,7 +325,7 @@ body{margin-top:74px;}
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background: rgba(54, 25, 25, .5);
+    background: rgba(54, 25, 25, .05);
     padding: 20px;
 }
 .features-icons-icon, .features-icons-item h3{
