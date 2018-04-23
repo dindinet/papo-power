@@ -255,6 +255,7 @@ body{margin-top:74px;}
     background: var(--theme-color);
     padding: 3px;
     line-height: 0;
+    border: 4px solid #0fb8ad;
 }
 .hamburger {
     position: relative;
