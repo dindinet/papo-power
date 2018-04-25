@@ -1,5 +1,9 @@
 :root {
-  --theme-color: #2cb5e8; 
+  --theme-color:#86d828;
+  --lingrad-start:#86d828;
+  --lingrad-mid:#a8ec55;
+  --lingrad-end:#c6ec97;
+  --alttextcolor: #fff;
 }
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
@@ -241,7 +245,7 @@ body, html {
     
 }
 body{margin-top:74px;}
-.w3-bar{color: #fff!important;}
+.w3-bar{color: var(--alttextcolor)!important;}
 .w3-xxlarge{font-size: 2em!important;}
 .w3-xlarge{font-size: 1.4em!important;}
 .flexy{display: flex;flex-wrap: wrap;}
@@ -250,7 +254,7 @@ body{margin-top:74px;}
 .intro{font-size: 1.0em;line-height: 1.4em;padding: 0em 2em 2em 2em;}
 .intro::first-letter { 
     font-size: 1.2em;
-    color: #fff;
+    color: var(--alttextcolor);
     font-weight: 700;
     background: var(--theme-color);
     padding: 3px;
@@ -263,8 +267,8 @@ body{margin-top:74px;}
     width: 1.25em;
     height: 1.2em;
     margin-right: 0.3em;
-    border-top: 0.2em solid #fff;
-    border-bottom: 0.2em solid #fff;
+    border-top: 0.2em solid var(--alttextcolor);
+    border-bottom: 0.2em solid var(--alttextcolor);
 }
 .w3-bar-item:hover .hamburger{
   border-top: 0.2em solid var(--theme-color);
@@ -282,7 +286,7 @@ body{margin-top:74px;}
     top: 0.3em;
     left: 0px;
     width: 100%;
-    border-top: 0.2em solid #fff;
+    border-top: 0.2em solid var(--alttextcolor);
 }
 .w3-bar-item:hover .hamburger:before{
   border-top: 0.2em solid var(--theme-color);
@@ -292,12 +296,12 @@ body{margin-top:74px;}
 }
 .benefit-card{height: 340px;text-align: center;padding-bottom: 16px;}
 .benefit-card h3{font-size:8vh;margin-top: 8%}
-.fp-button{color: #fff;background:green;}
+.fp-button{color: var(--alttextcolor);background:green;}
 .fp-button:hover{color: yellow!important; background: black!important;}
 #faqlist{list-style-type:none;margin: 0; padding: 0;}
 .faq-a{padding-left: 20px;font-size:1.6vw;}
 #navDemo{background-color: var(--theme-color)}
-#navDemo > a{color:white;}
+#navDemo > a{color:var(--alttextcolor);}
 @media screen and (min-width: 601px) {
     body, html {
         font-size: 2vw;      
@@ -325,7 +329,7 @@ body{margin-top:74px;}
 .hero-box {
     /* Set a specific height */
     height: 50%;
-    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background: linear-gradient(141deg,var(--lingrad-start) 0%, var(--lingrad-mid) 51%, var(--lingrad-end) 75%);
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -342,7 +346,7 @@ body{margin-top:74px;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: var(--alttextcolor);
     background: rgba(54, 25, 25, .05);
     padding: 20px;
 }
