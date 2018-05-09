@@ -11,10 +11,18 @@
         </div>
       </footer>
 
-          <!-- Bootstrap core JavaScript -->
-          <script src="{{site.url}}{{site.baseurl}}/js/site.js?26-04-2018"></script> 
+          <!-- Bootstrap core JavaScript 
+          <script src="{{site.url}}{{site.baseurl}}/js/site.js?26-04-2018"></script> -->
           <!-- <script src="{{site.url}}/{{site.baseurl}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-      
+          <!-- toggle the hamburger nav -->
+          <script>function toggleNav(){var e=document.getElementById("navDemo");-1==e.className.indexOf("w3-show")?e.className+=" w3-show":e.className=e.className.replace(" w3-show","")}</script>
+          <script>
+              function menus() {
+                var menu = document.querySelector('.navDemo');
+                menu.classList.toggle("active");
+              };
+          
+          </script>     
         </body>
       
       </html>
