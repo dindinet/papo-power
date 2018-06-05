@@ -50,9 +50,9 @@ handlers:
       Vary: Accept-Encoding
       Access-Control-Allow-Origin: "*"
 
-  - url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  - url: /(.*\.(bmp|gif|ico|jpeg|jpg|png|svg|webp))
     static_files: static/\1
-    upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+    upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png|svg|webp))
     
   - url: /
     static_files: static/index.html
